@@ -430,11 +430,44 @@ SlideDeck.prototype.addFonts_ = function(fonts) {
   document.querySelector('head').appendChild(el);
 };
 
+SlideDeck.prototype.getNextItem = function(slide) {
+  if ('toBuildArrIdx' in this) {
+    if (this.toBuildArrIdx < this.toBuildArr.length) {
+      var retval = this.toBuildArr[this.toBuildArrIdx];
+      this.toBuildArrIdx += 1;
+      return retval;
+    } else {
+      delete this.toBuildArrIdx;
+      delete this.toBuildArr;
+      return slide.querySelector('.to-build');
+    }
+  }
+
+  var toBuild = slide.querySelectorAll('.to-build, .ordered');
+  if (!toBuild.length) {
+    return slide.querySelector('.to-build');
+  }
+
+  var toBuildArr =  Array.prototype.slice.call(toBuild, 0);
+  toBuildArr = toBuildArr.sort(function(a, b) { 
+    var a_order = a.getAttribute('build-order');
+    var b_order = b.getAttribute('build-order');
+    return a_order - b_order;
+  });
+  this.toBuildArr = toBuildArr;
+  this.toBuildArrIdx = 0;
+  var retval = this.toBuildArr[this.toBuildArrIdx];
+  this.toBuildArrIdx += 1;
+  return retval;
+}
+
 /**
  * @private
  */
 SlideDeck.prototype.buildNextItem_ = function() {
   var slide = this.slides[this.curSlide_];
+  /*var toBuild = this.getNextItem(slide);*/
+  var build_states = slide.getAttribute('build-states');
   var toBuild = slide.querySelector('.to-build');
   var built = slide.querySelector('.build-current');
 
