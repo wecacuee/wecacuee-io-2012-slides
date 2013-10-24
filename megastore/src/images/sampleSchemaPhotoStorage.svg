@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="255.39668"
+   height="298.82074"
+   id="svg3521">
+  <defs
+     id="defs3523" />
+  <metadata
+     id="metadata3526">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-247.30167,-382.95182)"
+     id="layer1">
+    <text
+       x="247.22505"
+       y="391.46689"
+       id="text248"
+       style="font-size:15px">
+      <tspan
+         x="247.22505 253.10898 258.99292 264.87686 270.7608 276.64474 288.4126 294.29654 300.18048 306.06442 311.94836 317.83231 329.60019 335.4841 341.36804 347.25198 353.13593 359.01987 364.90378 370.78775 376.67166"
+         y="391.46689"
+         id="tspan250"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">CREATESCHEMAPhotoApp;</tspan>
+      <tspan
+         x="247.22505 253.10898 258.99292 264.87686 270.7608 276.64474 288.4126 294.29654 300.18048 306.06442 311.94836 323.71625 329.60019 335.4841 341.36804"
+         y="417.61688"
+         id="tspan252"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">CREATETABLEUser</tspan>
+    </text>
+    <text
+       x="353.13754"
+       y="417.61688"
+       id="text254"
+       style="font-size:15px">
+      <tspan
+         x="353.13754"
+         y="417.61688"
+         id="tspan256"
+         style="font-size:11.2074995px;font-style:italic;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMSY9;-inkscape-font-specification:CMSY9">{</tspan>
+    </text>
+    <text
+       x="253.11255"
+       y="430.69186"
+       id="text258"
+       style="font-size:15px">
+      <tspan
+         x="253.11255 258.99649 264.88043 270.76437 276.64828 282.53223 288.41617 294.30011 306.05676 311.9407 317.82465 323.70859 329.59253 341.36041 347.24435 353.12827 359.01224 364.89615 370.78009 376.66403 382.54797"
+         y="430.69186"
+         id="tspan260"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">requiredint64user_id;</tspan>
+      <tspan
+         x="253.11255 258.99649 264.88043 270.76437 276.64828 282.53223 288.41617 294.30011 306.05676 311.9407 317.82465 323.70859 329.59253 335.47647 347.24435 353.12827 359.01224 364.89615 370.78009"
+         y="443.76688"
+         id="tspan262"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">requiredstringname;</tspan>
+    </text>
+    <text
+       x="247.22505"
+       y="456.84189"
+       id="text264"
+       style="font-size:15px">
+      <tspan
+         x="247.22505"
+         y="456.84189"
+         id="tspan266"
+         style="font-size:11.2074995px;font-style:italic;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMSY9;-inkscape-font-specification:CMSY9">}</tspan>
+    </text>
+    <text
+       x="258.87506"
+       y="456.84189"
+       id="text268"
+       style="font-size:15px">
+      <tspan
+         x="258.87506 264.75897 270.64291 276.52686 282.4108 288.29474 294.17868 305.93533 311.81927 317.70322 323.58716 329.4711 335.35504 341.23898 347.12289 353.00684 358.89078 364.77472 370.65866 376.54257 388.31046 394.1944 400.07834 405.96228 411.84622 417.73016 429.49802 435.38196 441.2659 447.14984 453.03378 464.80167 470.68561 476.56952 482.45346 488.3374"
+         y="456.84189"
+         id="tspan270"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">PRIMARYKEY(user_id),ENTITYGROUPROOT;</tspan>
+      <tspan
+         x="247.22505 253.10898 258.99292 264.87686 270.7608 276.64474 288.4126 294.29654 300.18048 306.06442 311.94836 323.71625 329.60019 335.4841 341.36804 347.25198"
+         y="482.99188"
+         id="tspan272"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">CREATETABLEPhoto</tspan>
+    </text>
+    <text
+       x="359.02505"
+       y="482.99188"
+       id="text274"
+       style="font-size:15px">
+      <tspan
+         x="359.02505"
+         y="482.99188"
+         id="tspan276"
+         style="font-size:11.2074995px;font-style:italic;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMSY9;-inkscape-font-specification:CMSY9">{</tspan>
+    </text>
+    <text
+       x="253.11255"
+       y="496.06686"
+       id="text278"
+       style="font-size:15px">
+      <tspan
+         x="253.11255 258.99649 264.88043 270.76437 276.64828 282.53223 288.41617 294.30011 306.05676 311.9407 317.82465 323.70859 329.59253 341.36041 347.24435 353.12827 359.01224 364.89615 370.78009 376.66403 382.54797"
+         y="496.06686"
+         id="tspan280"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">requiredint64user_id;</tspan>
+      <tspan
+         x="253.11255 258.99649 264.88043 270.76437 276.64828 282.53223 288.41617 294.30011 306.05676 311.9407 317.82465 323.70859 329.59253 341.36041 347.24435 353.12827 359.01224 364.89615 370.78009 376.66403 382.54797 388.43192"
+         y="509.14188"
+         id="tspan282"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">requiredint32photo_id;</tspan>
+      <tspan
+         x="253.11255 258.99649 264.88043 270.76437 276.64828 282.53223 288.41617 294.30011 306.05676 311.9407 317.82465 323.70859 329.59253 341.36041 347.24435 353.12827 359.01224 364.89615"
+         y="522.22937"
+         id="tspan284"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">requiredint64time;</tspan>
+      <tspan
+         x="253.11255 258.99649 264.88043 270.76437 276.64828 282.53223 288.41617 294.30011 306.05676 311.9407 317.82465 323.70859 329.59253 335.47647 347.24435 353.12827 359.01224 364.89615 370.78009 376.66403 382.54797 388.43192 394.31583"
+         y="535.30438"
+         id="tspan286"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">requiredstringfull_url;</tspan>
+      <tspan
+         x="253.11255 258.99649 264.88043 270.76437 276.64828 282.53223 288.41617 294.30011 306.05676 311.9407 317.82465 323.70859 329.59253 335.47647 347.24435 353.12827 359.01224 364.89615 370.78009 376.66403 382.54797 388.43192 394.31583 400.19977 406.08371 411.96765 417.85159 423.73553"
+         y="548.37939"
+         id="tspan288"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">optionalstringthumbnail_url;</tspan>
+      <tspan
+         x="253.11255 258.99649 264.88043 270.76437 276.64828 282.53223 288.41617 294.30011 306.05676 311.9407 317.82465 323.70859 329.59253 335.47647 347.24435 353.12827 359.01224 364.89615"
+         y="561.45441"
+         id="tspan290"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">repeatedstringtag;</tspan>
+    </text>
+    <text
+       x="247.22505"
+       y="574.52936"
+       id="text292"
+       style="font-size:15px">
+      <tspan
+         x="247.22505"
+         y="574.52936"
+         id="tspan294"
+         style="font-size:11.2074995px;font-style:italic;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMSY9;-inkscape-font-specification:CMSY9">}</tspan>
+    </text>
+    <text
+       x="258.87506"
+       y="574.52936"
+       id="text296"
+       style="font-size:15px">
+      <tspan
+         x="258.87506 264.75897 270.64291 276.52686 282.4108 288.29474 294.17868 305.93533 311.81927 317.70322 323.58716 329.4711 335.35504 341.23898 347.12289 353.00684 358.89078 364.77472 370.65866 382.42651 388.31046 394.1944 400.07834 405.96228 411.84622 417.73016 423.61407 429.49802 435.38196"
+         y="574.52936"
+         id="tspan298"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">PRIMARYKEY(user_id,photo_id),</tspan>
+      <tspan
+         x="259.00006 264.88397 276.64066 282.5246 288.40854 294.29248 300.17639 311.94427 317.82822 323.71216 329.5961 335.48004"
+         y="587.60437"
+         id="tspan300"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">INTABLEUser,</tspan>
+      <tspan
+         x="259.00006 264.88397 270.76791 276.65186 282.5358 288.41974 300.17639 306.06033 311.94427 317.82822 323.71216 335.48004 341.36395 347.24789 353.13184 359.01578 364.89972 370.78366 376.66757 382.55151 388.43546 394.3194 400.20334 411.97122 417.85513 423.73907 429.62302 435.50696 441.3909 447.27484 453.15878 459.04272 464.92664 476.69452 482.57846 488.4624 494.34634 500.23029"
+         y="600.67938"
+         id="tspan302"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">ENTITYGROUPKEY(user_id)REFERENCESUser;</tspan>
+      <tspan
+         x="247.22505 253.10898 258.99292 264.87686 270.7608 276.64474 288.4126 294.29654 300.18048 306.06442 311.94836 323.71625 329.60019 335.4841 341.36804 347.25198 359.01987 364.90378 370.78775 376.67166 382.5556 388.43954 394.32349 400.20743 406.09137 411.97531 417.85922 423.74316"
+         y="626.82941"
+         id="tspan304"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">CREATELOCALINDEXPhotosByTime</tspan>
+      <tspan
+         x="259.00006 264.88397 276.64066 282.5246 288.40854 294.29248 300.17639 306.06033 311.94427 317.82822 323.71216 329.5961 335.48004 341.36395 347.24789 353.13184 364.89972 370.78366 376.66757 382.55151 388.43546 394.3194"
+         y="639.90436"
+         id="tspan306"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">ONPhoto(user_id,time);</tspan>
+      <tspan
+         x="247.22505 253.10898 258.99292 264.87686 270.7608 276.64474 288.4126 294.29654 300.18048 306.06442 311.94836 317.83231 329.60019 335.4841 341.36804 347.25198 353.13593 364.90378 370.78775 376.67166 382.5556 388.43954 394.32349 400.20743 406.09137 411.97531 417.85922 423.74316"
+         y="666.05438"
+         id="tspan308"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">CREATEGLOBALINDEXPhotosByTag</tspan>
+      <tspan
+         x="259.00006 264.88397 276.64066 282.5246 288.40854 294.29248 300.17639 306.06033 311.94427 317.82822 323.71216 329.5961 341.36395 347.24789 353.13184 359.01578 364.89972 370.78366 376.66757 388.43546 394.3194 400.20334 406.08728 411.97122 417.85513 423.73907 429.62302 435.50696 441.3909 447.27484 453.15878 459.04272 464.92664 470.81058 476.69452"
+         y="679.12939"
+         id="tspan310"
+         style="font-size:11.2074995px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:CMTT9;-inkscape-font-specification:CMTT9">ONPhoto(tag)STORING(thumbnail_url);</tspan>
+    </text>
+  </g>
+</svg>
