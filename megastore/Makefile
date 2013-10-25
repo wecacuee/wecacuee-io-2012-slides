@@ -1,6 +1,6 @@
-GOOGLE_IO_THEME_DIR=../
+GOOGLE_IO_THEME_DIR=..
 
-all: copy_src copy_theme build/.dirstamp
+all: copy_src copy_theme copy_images
 
 build/.dirstamp:
 	mkdir build/
@@ -10,17 +10,17 @@ build/.dirstamp:
 
 copy_theme: copy_google_io_theme
 
-copy_google_io_theme:
+copy_google_io_theme: build/.dirstamp
 	rsync -ruE ${GOOGLE_IO_THEME_DIR}/js ${GOOGLE_IO_THEME_DIR}/theme build/
 
-copy_src: src/presentation-output.html src/slide_config.js
+copy_src: src/presentation-output.html src/slide_config.js build/.dirstamp
 	mv src/presentation-output.html build/;\
 	cp src/slide_config.js build/
 
-copy_images:
+copy_images: build/.dirstamp
 	rsync -ruE src/images/ build/images/
 
-src/presentation-output.html: src/presentation.md
+src/presentation-output.html: src/presentation.md 
 	cd src;\
 	python render.py; cd -
 

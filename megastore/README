@@ -1,0 +1,9 @@
+1. Modify megastore/src/presentation.md to change the content
+2. Run make in this directory (megastore/ directory)
+3. Make should create build/presentation-output.html in the build directory
+4. Open build/presentation-output.html in your favorite browser.
+5. See http://io-2012-slides.googlecode.com/git/template.html to know the
+keyboard shortcuts and all the features supported.
+6. This fork also supports another shortcut "z" which zooms in or out of the
+slides to fit 90% of the available window.
+
