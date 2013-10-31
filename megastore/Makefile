@@ -18,6 +18,7 @@ copy_src: src/presentation-output.html src/slide_config.js build/.dirstamp
 	cp src/slide_config.js build/
 
 copy_images: build/.dirstamp
+	rsync -ruE ../images/ build/images/
 	rsync -ruE src/images/ build/images/
 
 src/presentation-output.html: src/presentation.md 
