@@ -5,9 +5,9 @@ import re
 import jinja2
 import markdown
 
-def process_slides():
-  with codecs.open('../../presentation-output.html', 'w', encoding='utf8') as outfile:
-    md = codecs.open('slides.md', encoding='utf8').read()
+def process_slides(mdfname, jinjafname, outputfname):
+  with codecs.open(outputfname, 'w', encoding='utf8') as outfile:
+    md = codecs.open(mdfname, encoding='utf8').read()
     md_slides = md.split('\n---\n')
     print 'Compiled %s slides.' % len(md_slides)
 
@@ -24,12 +24,12 @@ def process_slides():
       remainder_index = metadata and 1 or 0
       # Get the content from the rest of the slide.
       content_section = '\n\n'.join(sections[remainder_index:])
-      html = markdown.markdown(content_section)
+      html = markdown.markdown(content_section, extensions=['attr_list'])
       slide['content'] = postprocess_html(html, metadata)
 
       slides.append(slide)
 
-    template = jinja2.Template(open('base.html').read())
+    template = jinja2.Template(open(jinjafname).read())
 
     outfile.write(template.render(locals()))
 
@@ -54,4 +54,9 @@ def postprocess_html(html, metadata):
   return html
 
 if __name__ == '__main__':
-  process_slides()
+    import sys
+    mdfname = sys.argv[1] if len(sys.argv) > 1 else 'presentation.md'
+    jijjafname = sys.argv[2] if len(sys.argv) > 2 else 'base.html'
+    outfname = sys.argv[3] if len(sys.argv) > 3 else 'presentation-output.html'
+    print('Md: %s; jinja: %s; out: %s' % (mdfname, jijjafname, outfname))
+    process_slides(mdfname, jijjafname, outfname)

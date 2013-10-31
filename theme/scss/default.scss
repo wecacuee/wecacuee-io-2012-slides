@@ -63,7 +63,7 @@ slides > slide {
   display: none;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 26px;
-  color: $gray-3;
+  color: $gray-4;
   //@include background(linear-gradient(white, white 85%, $gray-1));
   //background-color: white;
   width: $slide-width;
@@ -129,6 +129,10 @@ slides > slide {
   }
 
   &:not(.nobackground) {
+    background-image: url('../../images/2-line_blue_gray.png');
+    background-position: 30px 98%;
+    background-repeat: no-repeat;
+    background-size:auto 30px;
     //background: white url(../../images/google_developers_icon_128.png) ($brand-small-icon-size * 2) 98% no-repeat;
     //@include background-size($brand-small-icon-size $brand-small-icon-size);
 
@@ -289,7 +293,7 @@ h3 {
   letter-spacing: -1px;
   line-height: 2;
   font-weight: inherit;
-  color: $gray-3;
+  color: $gray-4;
 }
 
 ul {
@@ -726,7 +730,7 @@ article.smaller {
   font-size: 12pt;
   position: absolute;
   bottom: $slide-top-bottom-padding / 2;
-  left: $slide-left-right-padding;
+  left: $slide-width / 2;
   line-height: 1.9;
 }
 

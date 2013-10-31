@@ -188,7 +188,7 @@ slides > slide {
   display: none;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 26px;
-  color: #797979;
+  color: #515151;
   width: 900px;
   height: 700px;
   margin-left: -450px;
@@ -227,27 +227,32 @@ slides > slide {
     display: none; }
   slides > slide.dark {
     background: #515151 !important; }
-  slides > slide:not(.nobackground):before {
-    font-size: 12pt;
-    content: "";
-    position: absolute;
-    bottom: 20px;
-    left: 60px;
-    background: no-repeat 0 50%;
-    -moz-background-size: 30px 30px;
-    -webkit-background-size: 30px 30px;
-    -o-background-size: 30px 30px;
-    background-size: 30px 30px;
-    padding-left: 40px;
-    height: 30px;
-    line-height: 1.9; }
-  slides > slide:not(.nobackground):after {
-    font-size: 12pt;
-    content: attr(data-slide-num) "/" attr(data-total-slides);
-    position: absolute;
-    bottom: 20px;
-    right: 60px;
-    line-height: 1.9; }
+  slides > slide:not(.nobackground) {
+    background-image: url("../../images/2-line_blue_gray.png");
+    background-position: 30px 98%;
+    background-repeat: no-repeat;
+    background-size: auto 30px; }
+    slides > slide:not(.nobackground):before {
+      font-size: 12pt;
+      content: "";
+      position: absolute;
+      bottom: 20px;
+      left: 60px;
+      background: no-repeat 0 50%;
+      -moz-background-size: 30px 30px;
+      -webkit-background-size: 30px 30px;
+      -o-background-size: 30px 30px;
+      background-size: 30px 30px;
+      padding-left: 40px;
+      height: 30px;
+      line-height: 1.9; }
+    slides > slide:not(.nobackground):after {
+      font-size: 12pt;
+      content: attr(data-slide-num) "/" attr(data-total-slides);
+      position: absolute;
+      bottom: 20px;
+      right: 60px;
+      line-height: 1.9; }
   slides > slide.title-slide:after {
     content: '';
     position: absolute;
@@ -357,7 +362,7 @@ h3 {
   letter-spacing: -1px;
   line-height: 2;
   font-weight: inherit;
-  color: #797979; }
+  color: #515151; }
 
 ul {
   margin-left: 1.2em;
@@ -832,7 +837,7 @@ article.smaller q {
   font-size: 12pt;
   position: absolute;
   bottom: 20px;
-  left: 60px;
+  left: 450px;
   line-height: 1.9; }
 
 .source {

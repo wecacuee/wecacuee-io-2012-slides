@@ -374,7 +374,7 @@ SlideDeck.prototype.loadConfig_ = function(config) {
       }
     } else {
       for (var i = 0, p; p = presenters[i]; ++i) {
-        html.push(p.name + ' - ' + p.company);
+        html.push(p.name + ' - ' + p.email);
       }
       html = html.join('<br>');
       if (dataConfigContact) {
@@ -388,7 +388,7 @@ SlideDeck.prototype.loadConfig_ = function(config) {
       if (settings.eventInfo) {
         var date = settings.eventInfo.date;
         var dateInfo = date ? ' - <time>' + date + '</time>' : '';
-        dataConfigPresenter.innerHTML += settings.eventInfo.title + dateInfo;
+        dataConfigPresenter.innerHTML += '<br/>' + settings.eventInfo.title + dateInfo;
       }
     }
   }
